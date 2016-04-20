@@ -16,6 +16,7 @@ PKG_CHECK_LIBS = `pkg-config --libs check`
 all: geometry_test
 
 test: geometry_test
+	./geometry_test
 
 dep: sudo apt-get install check
 

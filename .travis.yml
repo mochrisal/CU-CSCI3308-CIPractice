@@ -1,4 +1,4 @@
 language: c
 script: make test
 sudo: required
-install: make dep
+install: sudo apt-get install check
